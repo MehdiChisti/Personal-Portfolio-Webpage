@@ -1,0 +1,71 @@
+:root{
+   --main-white: #ffffff;
+   --main-red: #ff0000;
+   --main-blue: #0000ff;
+   --main-grey: #808080;
+}
+ @media(max-width: 70 em){
+ html{font-size: 32px; }
+ }
+ header{
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left:0;
+    display: flex;
+  justify-content: flex-end;
+
+  
+  background: rgb(230, 81, 0);
+  
+ }
+
+#welcome-section{
+  text-align: center;
+  width: 100%;
+}
+h1{
+  font-size: 32px;
+  color: var(--main-white);
+  background:rgb(33, 33, 33);
+  width: 100%;
+ margin: auto;
+  
+}
+p{
+ font-size: 15px;
+  color: var(--main-red);
+  background: rgb(33, 33, 33);
+  width: 100%;
+  height: 150;
+  margin: auto; 
+}
+#projects{
+  background: var(--main-blue);
+  width: 100%;
+  height: 600;
+  font-size: 32px;
+  margin: auto;
+  color: var(--main-white);
+}
+.project-tile{
+ color: var(--main-white);
+}
+
+.mycontacts{
+  color: var(--main-white);
+  font-size: 32;
+  text-align: center;
+margin: auto; 
+}
+.coffee{
+  color: var(--main-white);
+  font-size: 15;
+  text-align: center;
+}
+.mycontacts{
+  color: var(--main-white);
+  background:rgb(33, 33, 33);
+  width: 100%;
+ margin: auto; 
+}
